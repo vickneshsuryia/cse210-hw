@@ -9,8 +9,7 @@ class Program
         string name = PromptUserName();
         int number = PromptUserNumber();
 
-        int birthYear;
-        PromptUserBirthYear(out birthYear);
+        PromptUserBirthYear(out int birthYear);
 
         DisplayResult(name, SquareNumber(number), birthYear);
     }
@@ -38,7 +37,6 @@ class Program
     {
         Console.Write("Please enter your birth year: ");
         birthYear = int.Parse(Console.ReadLine());
-        Console.WriteLine(birthYear);
     }
 
     static int SquareNumber(int x)
