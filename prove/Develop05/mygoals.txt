@@ -1,0 +1,4 @@
+0
+SimpleGoal|Walk|Walk the dog|10|False
+EternalGoal|Read scriptures|Read BOM|10
+ChecklistGoal|Attend temple|Perform temple ordinance|15|2|40|0

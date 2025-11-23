@@ -1,0 +1,4 @@
+110
+SimpleGoal|Run|Run 10 km today|20|True
+EternalGoal|Read scriptures|Read BOM for 5 minutes|5
+ChecklistGoal|Attend temple|Complete ordinances|15|2|50|2
