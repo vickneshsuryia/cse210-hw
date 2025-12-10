@@ -1,9 +1,10 @@
 using System;
+using System.ComponentModel;
 
 class Program
 {
     static void Main(string[] args)
-    {
+    {   
         Order order1 = new Order(new Customer("Suryia", new Address("Jalan Stephen Yong", "Kuching", "Sarawak", "Malaysia")));
         order1.AppendProducts(new Product("Beads", "003", 3.15f, 10));
         order1.AppendProducts(new Product("Remote", "032", 15f, 2));

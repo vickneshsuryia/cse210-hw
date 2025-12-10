@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         List<Activity> activities = new List<Activity>();
+        int number = 0;
 
         Running running = new Running("04 Nov 2025", 20, 3.5f);
         activities.Add(running);
@@ -17,7 +18,8 @@ class Program
 
         foreach (Activity activity in activities)
         {
-            Console.WriteLine(activity.getSummary());
+            Console.WriteLine($"Exercise #{number += 1}\n{activity.getSummary()}");
+            Console.WriteLine();
         }
     }
 }

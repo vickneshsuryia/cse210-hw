@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         List<Video> videos = new List<Video>();
+        int number = 0;
 
         Video video1 = new Video("Fail Compilation#1", "stinkycheeze", "15 minutes");
         video1.AppendComment(new Comment("Rick123", "'Great video, man!'"));
@@ -27,7 +28,10 @@ class Program
         
         foreach (Video video in videos)
         {
+            Console.WriteLine($"Video #{number += 1}");
+            Console.WriteLine("--------");
             video.Display();
+            Console.WriteLine();
             Console.WriteLine();
         }
     }
